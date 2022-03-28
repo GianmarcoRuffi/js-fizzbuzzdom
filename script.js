@@ -14,18 +14,11 @@ let maxNumber = 100;
 
 //Condizionali
 
-for (let x = 1; x <= maxNumber; x++) {
-  if (x % 3 && x % 5) {
-    document.write("<p>FizzBuzz</p>");
-    console.log("Fizzbuzz");
-  } else {
-    if (x % 3 == 0) {
-      document.write("<p>Fizz</p>");
-      console.log("Fizz");
-    }
-    if (x % 5 == 0) {
-      document.write("<p>Buzz</p>");
-      console.log("Buzz");
-    }
+for (let i = 1; i <= maxNumber; i++) {
+  {
+    if (i % 15 == 0) console.log("FizzBuzz");
+    else if (i % 3 == 0) console.log("Fizz");
+    else if (i % 5 == 0) console.log("Buzz");
+    else console.log(i);
   }
 }
