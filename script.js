@@ -10,17 +10,20 @@ Applica uno stile differente a seconda del valore dell'indice per i multipli di 
 
 // Variabili
 
-const total = 100;
+const maxNumber = 100;
+
+var n = Math.floor(Math.random() * 1000 + 1);
 
 //Condizionali
 
-for (let i = 1; i <= total; i++) {}
-console.log(i);
-
-var n = Math.floor(Math.random() * 1000 + 1);
-if (n) {
-  var output = "";
-  if (n % 3 == 0) output += "Fizz";
-  if (n % 5 == 0) output += "Buzz";
-  prompt(output || n);
+for (let i = 1; i <= maxNumber; i++) {
+  if (n) {
+    var output = "";
+    if (maxNumber % 3 == 0) output += "Fizz";
+    if (maxNumber % 5 == 0) output += "Buzz";
+    prompt(output || n);
+  }
 }
+
+console.log(output);
+console.log(i);
