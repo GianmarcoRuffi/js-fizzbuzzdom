@@ -27,5 +27,3 @@ for (let x = 1; x <= maxNumber; x++) {
   }
   console.log(x);
 }
-
-document.write("<br>");
