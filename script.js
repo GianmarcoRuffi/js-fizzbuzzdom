@@ -23,9 +23,9 @@ for (let x = 1; x <= maxNumber; x++) {
     }
     if (x % 5 == 0) {
       document.write("<p>Buzz</p>");
-    }
+    } else document.write("<p>Not a multiple</p>");
   }
+  console.log(x);
 }
-document.write("<br>");
 
-console.log(x);
+document.write("<br>");
