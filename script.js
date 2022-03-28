@@ -29,5 +29,4 @@ for (let x=1; x <= maxNumber; x++){
     document.write('<br>'); 
 }​
 
-console.log(output);
-console.log(i);
+console.log(x);
