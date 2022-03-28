@@ -12,13 +12,22 @@ Applica uno stile differente a seconda del valore dell'indice per i multipli di 
 
 let maxNumber = 100;
 
-const output = document.getElementById("output");
+/*
+// Individua elemento
+let output = document.getElementById("output");
 
-const row = document.createElement("div");
+// Creazione append
+let appended = document.createElement("div");
 
-row.setAttribute("class", "row");
+// Assegnazione classe
+div.className = "square";
 
-output.append(row);
+// Contenuto
+
+div.innerHTML = "FizzBuzz";
+document.body.append(div);
+
+*/
 
 //Condizionali
 
