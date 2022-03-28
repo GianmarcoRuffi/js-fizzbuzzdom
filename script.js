@@ -12,21 +12,20 @@ Applica uno stile differente a seconda del valore dell'indice per i multipli di 
 
 let maxNumber = 100;
 
-
 //Condizionali
 
-for (let x=1; x <= maxNumber; x++){
-    if( x % 3 && x % 5 ) {
-        document.write("FizzBuzz");
-    } else {
-        if( x % 3 == 0 ) {
-            document.write("Fizz");
-        }
-        if( x % 5 == 0 ) {
-            document.write("Buzz");
-        }
+for (let x = 1; x <= maxNumber; x++) {
+  if (x % 3 && x % 5) {
+    document.write("<p>FizzBuzz</p>");
+  } else {
+    if (x % 3 == 0) {
+      document.write("<p>Fizz</p>");
     }
-    document.write('<br>'); 
-}​
+    if (x % 5 == 0) {
+      document.write("<p>Buzz</p>");
+    }
+  }
+}
+document.write("<br>");
 
 console.log(x);
