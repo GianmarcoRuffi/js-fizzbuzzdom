@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main,
+.container {
+  background-color: #083b4c;
+}
+
+h1 {
+  color: white;
+}
+
+.square {
+  color: black;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-1 {
+  background-color: #1389b2;
+}
+
+.color-2 {
+  background-color: #0bd6a1;
+}
+
+.color-3 {
+  background-color: #ffd166;
+}
+
+.color-4 {
+  background-color: #f0466f;
+}
