@@ -10,6 +10,17 @@ Applica uno stile differente a seconda del valore dell'indice per i multipli di 
 
 // Variabili
 
-for (let i = 0; i < 101; i++) {
-  console.log(i);
+const total = 100;
+
+//Condizionali
+
+for (let i = 1; i <= total; i++) {}
+console.log(i);
+
+var n = Math.floor(Math.random() * 1000 + 1);
+if (n) {
+  var output = "";
+  if (n % 3 == 0) output += "Fizz";
+  if (n % 5 == 0) output += "Buzz";
+  prompt(output || n);
 }
