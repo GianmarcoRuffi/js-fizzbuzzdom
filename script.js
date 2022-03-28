@@ -17,13 +17,15 @@ let maxNumber = 100;
 for (let x = 1; x <= maxNumber; x++) {
   if (x % 3 && x % 5) {
     document.write("<p>FizzBuzz</p>");
+    console.log("Fizzbuzz");
   } else {
     if (x % 3 == 0) {
       document.write("<p>Fizz</p>");
+      console.log("Fizz");
     }
     if (x % 5 == 0) {
       document.write("<p>Buzz</p>");
-    } else document.write("<p>Not a multiple</p>");
+      console.log("Buzz");
+    }
   }
-  console.log(x);
 }
