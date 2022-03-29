@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 
+main {
+  background-color: #083b4c;
+}
+
 h1 {
   color: white;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 .square {
@@ -16,20 +22,26 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid white;
+  background-color: #f0466f;
+  border-radius: 50%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-.color-1 {
+.fizz {
   background-color: #1389b2;
 }
 
-.color-2 {
+.buzz {
   background-color: #0bd6a1;
 }
 
-.color-3 {
+.fizzbuzz {
   background-color: #ffd166;
 }
 
-.color-4 {
+.nofizz {
   background-color: #f0466f;
 }
